@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/tiger8707/NFT-preview-card-component)
-- Live Site URL: (https://tiger8707.github.io/NFT-preview-card-component/)
+- Solution URL: (https://github.com/tiger8707/Interactive-rating-component/)
+- Live Site URL: (https://tiger8707.github.io/Interactive-rating-component/)
 
 ### Built with
 
@@ -35,6 +35,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - Mobile-first workflow
+- Javascript
 
 ## Author
 
