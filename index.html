@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Code -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Links -->
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <link rel="stylesheet" href="style/normalize.css"/>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet"> 
+
+    <title>Interactive Rating Component</title>
+</head>
+
+<body>
+    <div class="window center">
+        <div class="rating-window">
+            <div class="container flex">
+                <div class="star circle">
+                    <img class="center" src="images/icon-star.svg" alt="star"/>
+                </div>
+                <h2 class="rate-title">How did we do?</h2>
+                <p class="rate-message">Please let us know how we did with your support request. 
+                All feedback is appreciated to help us improve out offering!
+                </p>
+                <div class="rating">
+                    <span class="rating-number circle">1</span>
+                    <span class="rating-number circle">2</span>
+                    <span class="rating-number circle">3</span>
+                    <span class="rating-number circle">4</span>
+                    <span class="rating-number circle">5</span>
+                </div>
+                <div class="submit">SUBMIT</div>
+            </div>
+        </div>
+        <div class="result-window">
+            <div class="container flex">
+                <picture>
+                    <img src="images/illustration-thank-you.svg" alt="Thank You">
+                </picture>
+                <div class="result">
+                    You selected 4 out of 5
+                </div>
+                <h2>Thank you!</h2>
+                <p>We appreciate you taking the time to give a rating. 
+                if you ever need more support, 
+                don't hesitate to get in touch!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
