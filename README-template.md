@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Interactive rating component solution.png)
+![Screenshot](./Interactive rating component solution.png)
 
 ### Links
 
