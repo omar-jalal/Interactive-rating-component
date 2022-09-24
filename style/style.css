@@ -29,7 +29,7 @@ body {
     height: 100vh;
 }
 
-h2 {
+h1 {
     color: var(--white);
     margin: 0;
 }
@@ -107,6 +107,7 @@ p {
     justify-content: space-between;
     margin-top: 1.7em;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 .rating-window .rating-number {
