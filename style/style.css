@@ -65,6 +65,10 @@ p {
     padding: 2em 0;
 }
 
+.transition {
+    transition: all ease-in-out .25s
+}
+
 /* Global End */
 
 /* Rating Window Start */
