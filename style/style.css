@@ -34,6 +34,11 @@ h1 {
     margin: 0;
 }
 
+h2 {
+    color: var(--white) !important;
+    margin: 0;
+}
+
 p {
     font-size: 0.9375rem;
     color: var(--lightGrey);
@@ -194,9 +199,19 @@ p {
 
 /* Result Window End */
 
+.attribution { 
+    font-size: 11px; text-align: center;
+    color: var(--darkGrey); 
+    top: 105%;
+    width: 100%;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
 /* Mobile Layout Start */
 
-@media(min-width: 23.4375rem) {
+@media(max-width: 89.9rem) {
 
     .window {
         width: 91%;
@@ -211,7 +226,7 @@ p {
 @media(min-width: 90rem) {
 
     .window {
-        width: 21%;
+        width: 30%;
     }
 
 }
